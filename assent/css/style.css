@@ -1,0 +1,152 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body {
+	background: #f2f2f2;
+	font-family: 'Ubuntu', sans-serif;  /* forma de letra*/
+
+}
+header {
+	color: white;  /* color de letras*/
+
+}
+header a {
+	color: white;
+	text-decoration: none; /*  Texto que no aparesca subrayado*/
+}
+.logo-menu {
+	background:#FF6347;  /* Encabezado*/
+}
+
+
+.logo-menu h2 {
+	font-weight: 300px;
+	font-size: 30px;
+}
+.logo-menu .menu  a{
+	display: inline-block;
+	padding: 40px 20px;
+
+
+}
+
+.logo-menu .menu  a:hover {
+	color: #FF4500;
+}
+
+.main .img1 img { 
+	width: 100%;
+	height: 400px;
+}
+
+.texto p {
+	padding: 20px 10px;
+
+}
+.call  {
+	background-color: #FF7F50;
+	color: white;
+	border-radius: 7px;
+	height: 40px;
+	width: 120px;
+	border: none;
+
+}
+.call:hover {
+	color: #FF6347;
+}
+
+.texto-contacto { 
+	padding: 30px 20px;
+	display: inline-block;
+
+}
+
+.main2 .gatitos {
+	padding: 30px 40px;
+	display: inline-block;
+
+
+}
+.main2 .gatitos{
+	margin-bottom: 20px;
+}
+
+.main2 .gatitos img {
+	width: 100%;
+	vertical-align: top;
+
+
+}
+.main2 .gatitos h2 {
+	color: #FF4500;
+}
+.main2 .gatitos p {
+	color:#FF6347;
+
+}
+.call2  {
+	background-color: #FF7F50;
+	color: white;
+	border-radius: 7px;
+	height: 40px;
+	width: 90px;
+	border: none;
+
+}
+.call2:hover {
+	color: #FF6347;
+	
+}
+.main2 .gatitos {
+
+	border: 1px solid #FF6347;
+}
+
+/* agregando tamaño y  hover a los  botones de gatos*/
+
+.call3  {
+	background-color: #FF7F50;
+	color: white;
+	border-radius: 7px;
+	height: 40px;
+	width: 90px;
+	border: none;
+	border-bottom: 12px
+
+}
+.call3:hover {
+	color: #FF6347;
+}
+.call4  {
+	background-color: #FF7F50;
+	color: white;
+	border-radius: 7px;
+	height: 40px;
+	width: 90px;
+	border: none;
+
+}
+.call4:hover { 
+	color: #FF6347;
+}
+
+/* footer*/
+footer {
+	background: #FF6347;
+	color: white;
+	padding: 40px 0;
+
+}
+
+footer .fot a {
+	width: 100%;
+	color: white;
+	text-decoration: none;
+	padding: 25px;
+	font-weight: 300px;
+	text-align: center;
+	font-size: 10px;
+} 
